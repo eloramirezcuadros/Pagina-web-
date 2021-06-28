@@ -1,0 +1,152 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    align-items: stretch;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 56rem;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 88%;
+}
+
+.container h3 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.all-components {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Space Mono', monospace;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 0.625rem;
+    margin-right: 1.25rem;
+}
+
+.container-img {
+    margin: 20px;
+}
+
+.scarecrow-img {
+    width: 17.875rem;
+    height: 100%;
+}
+
+.container-text {
+    align-self: center;
+    font-family: 'Space Mono', monospace;
+    justify-content: space-between;
+}
+
+.h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 0.0025rem;
+    line-height: 1.25;
+}
+
+.container-text p {
+    letter-spacing: -0.0015rem
+}
+
+.p {
+    margin-top: 30px;
+    color: #4f4f4f;
+    line-height: 2rem;
+    letter-spacing: -0.035em;
+    padding-right: 10px;
+}
+
+.all-components button {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.875rem;
+    background: #333333;
+    color: #FFFFFF;
+    width: 13.5rem;
+    height: 4.25rem;
+    margin-top: 2rem;
+    align-self: flex-start;
+}
+
+.button {
+    appearance: auto;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-image: initial;
+}
+
+footer {
+    display: flex;
+    align-self: center;
+}
+
+footer,
+.p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1rem;
+    font-size: 0.875rem;
+    color: #bdbdbd;
+}
+
+@media screen and (min-width: 59em) {
+    .container {
+        padding: 40px 144px 0px 77px;
+    }
+    .all-components {
+        flex-direction: row;
+    }
+    .scarecrow-img {
+        height: 27.96rem;
+        width: 33.6875rem;
+    }
+    .container-text h1 {
+        font-size: 4rem;
+    }
+    .container-text p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        width: 25.82rem;
+    }
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+        margin: 0;
+        padding: 0;
+    }
+}
